@@ -19,6 +19,14 @@ layout: default
             <p>
                 {{ session.presentation.brief-description }}
             </p>
+            {% if session.presenters %}
+                <p>
+                    <strong>Presenters:</strong>
+                    {% for presenter in session.presenters %}
+                        {{ presenter.name }}
+                    {% endfor %}
+                </p>
+            {% endif %}
         </li>
 
         {% endfor %}

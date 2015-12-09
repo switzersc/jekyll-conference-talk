@@ -15,3 +15,5 @@ Add your conference-talk json file to the `_data` directory as `conference_talk.
 Start the server by running `jekyll serve`. On the homepage, you'll see a link in the header called "Conference Talk", and when you click that, you'll see your sessions!
 
 If you want to customize the HTML, you can edit it in `conference_talk.html`.
+
+The top-level "presenter" object in your conference-talk.json file should be you, and if one of your sessions has other presenters, add them in the "presenters" array for that session.
