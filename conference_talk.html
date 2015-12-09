@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<div class="home">
+
+    <h1 class="page-heading">Previous Talks & Workshops</h1>
+
+    <ul class="post-list">
+        {% for session in site.data.conference_talk.sessions %}
+        <li>
+            <span class="post-meta">{{ session.presentation-date }}</span>
+
+            <h2>
+                {{ session.presentation.title }}
+            </h2>
+            <p>
+                {{ session.presentation.brief-description }}
+            </p>
+        </li>
+        {% endfor %}
+    </ul>
+
+    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>

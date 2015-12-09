@@ -1,0 +1,24 @@
+{
+  "presenter" : {
+    "name" : "Shelby Switzer",
+    "email" : "shelby@example.com"
+  } ,
+  "sessions" : [
+    {
+      "presentation-date" : "20151208",
+      "conference" : "APIdays Paris",
+      "presentation" : {
+        "title": "Hypermedia & Civic Hacking: A Love Story",
+        "brief-description": "Open data at the local scale is even more of a mess than at the national level in many countries, but while there are increasing efforts to improve things at the national level, municipalities are being left behind. APIs for this data barely exist, and when they do, they tend to be as fragmented and denormalized as the data they expose. A containerized hypermedia approach offers exciting opportunities to re-shape how we expose and interact with open data.",
+        "full-description": "Open data at the local scale is even more of a mess than at the national level in many countries, but while there are increasing efforts to improve things at the national level, municipalities are being left behind. These smaller entities don't have the resources to implement APIs for their data, and community tech groups and developers who want to use this data constantly hit walls — from fragmented, non-uniform data to finding API hosting and maintenance. What’s more, the APIs that do emerge tend to be just as fragmented and non-uniform as the data they are exposing. This talk tells the story of a civic hacking project that turned a mess of data into a movement for portable, standardized, self-descriptive APIs using Docker and Collection+JSON. Using real-world examples, I will demonstrate how hypermedia and containerization offer new opportunities to re-think our approach and re-shape how we interact with open data.",
+        "keywords": [
+          "civic hacking",
+          "ruby",
+          "hypermedia",
+          "docker",
+          "elasticsearch"
+        ]
+      }
+    }
+  ]
+}
