@@ -7,7 +7,9 @@ layout: default
     <h1 class="page-heading">Previous Talks & Workshops</h1>
 
     <ul class="post-list">
+
         {% for session in site.data.conference_talk.sessions %}
+
         <li>
             <span class="post-meta">{{ session.presentation-date }}</span>
 
@@ -18,6 +20,7 @@ layout: default
                 {{ session.presentation.brief-description }}
             </p>
         </li>
+
         {% endfor %}
     </ul>
 
